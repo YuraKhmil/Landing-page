@@ -1,0 +1,128 @@
+* {
+  text-align: center;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: blue;
+  margin: 30px;
+}
+.header-image {
+    margin-left: 30px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    margin: 20px 200px;
+      background-color: grey;
+}
+.nav-link {
+    color: grey;
+  text-decoration: none;
+
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 15px;
+}
+.div-h2,
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  width: 300px;
+  height: 40px;
+  margin: auto;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  background-color: yellow;
+}
+.sports-item {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+   background-color: grey;
+   margin: 20px;
+}
+.about-h2 {
+  margin-left: 100px;
+}
+.junior-h2 {
+  background-color: aqua;
+  margin: 20px;
+}
+.amateur-h2 {
+    background-color: blue;
+}
+.professional-h2 {
+    background-color: red;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 100px;
+    text-align: center;
+    background-color: pink;
+}
+.prices {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    
+}
+.kind {
+    height: 50px;
+    align-items: center;
+    background-color: grey;
+    padding-top: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.price {
+    height: 100px;
+    padding-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.how-many {
+    height: 40px;
+    
+}
+.botton {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: yellow;
+}
+.address {   
+    background-color: chocolate;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media (min-width: 500px) {
+  .container {
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
